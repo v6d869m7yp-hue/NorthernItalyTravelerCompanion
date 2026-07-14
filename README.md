@@ -1,13 +1,9 @@
-# Northern Italy Traveler's Companion — Release 4
+# Northern Italy Traveler's Companion — Release 5
 
-Venice Travel Mode adds:
-
-- daily dashboard
-- persistent personal notes
-- persistent checklist
-- fast decision cards
-- three self-guided walks
-- quick-action navigation
+Release 5 adds:
+- personalized trip dashboard
+- full itinerary page
+- stylized route map
+- local-only hotel workspace
+- Venice departure module
 - updated offline cache
-
-Notes and checklist data remain only in the user's browser through localStorage.

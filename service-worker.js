@@ -1,7 +1,7 @@
-const CACHE='northern-italy-v4';
+const CACHE='northern-italy-v5';
 const FILES=[
-'./','./index.html','./venice.html','./assets/style.css',
-'./manifest.webmanifest','./assets/images/app-icon.png',
+'./','./index.html','./venice.html','./itinerary.html','./map.html','./hotels.html',
+'./assets/style.css','./manifest.webmanifest','./assets/images/app-icon.png',
 './assets/images/venice-cover.png','./assets/images/venice-2.png',
 './assets/images/venice-4.png','./assets/images/venice-5.png',
 './assets/images/venice-7.png','./assets/images/venice-8.png',
