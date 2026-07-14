@@ -1,4 +1,4 @@
-const CACHE='northern-italy-v2';
+const CACHE='northern-italy-v3';
 const FILES=[
 './','./index.html','./venice.html','./assets/style.css',
 './manifest.webmanifest','./assets/images/app-icon.png',
