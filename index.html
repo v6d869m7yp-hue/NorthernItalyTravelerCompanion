@@ -1,6 +1,88 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#082d4a"><link rel="manifest" href="manifest.webmanifest"><link rel="stylesheet" href="assets/style.css"><title>Northern Italy Traveler's Companion</title></head><body>
-<header class="topbar"><div class="topbar-inner"><div class="brand">THE TRAVELER'S COMPANION</div><nav class="nav"><a href="index.html">Home</a><a href="venice.html">Venice</a><a href="#route">Trip route</a></nav></div></header>
-<section class="hero"><div class="hero-copy"><div class="kicker">Interactive iPad Edition · 2026</div><h1>Northern<br>Italy</h1><p>A compact, visual companion for Venice, the Dolomites, Cinque Terre, Lake Como and Lake Maggiore.</p><a class="cta" href="venice.html">Open Venice</a></div></section>
-<main class="wrap"><section class="intro" id="route"><div><div class="kicker" style="color:#496a55">Your journey</div><h2>Everything you need. Nothing you don't.</h2><p>This version keeps the strongest qualities of the original guide—its photography, itinerary and visual storytelling—while organizing it into a faster iPad experience.</p></div><div class="facts"><div class="fact"><strong>Venice</strong>Aug 31–Sept 2</div><div class="fact"><strong>Dolomites</strong>Sept 2–4</div><div class="fact"><strong>Cinque Terre</strong>Sept 4–6</div><div class="fact"><strong>Italian Lakes</strong>Sept 6–10</div></div></section>
-<h2 class="section-title">Start the journey</h2><div class="grid"><article class="card"><img src="assets/images/venice-2.png" alt="Venice overview"><div class="card-body"><h3>Venice</h3><p>Two focused days of classic sights, food, hidden neighborhoods and evening atmosphere.</p><div class="buttons"><a class="button" href="venice.html">Open chapter</a></div></div></article><article class="card"><img src="assets/images/venice-20.png" alt="Leaving Venice"><div class="card-body"><h3>Next: The Dolomites</h3><p>The next destination will use the same compact, visual format after Venice is approved.</p></div></article></div></main>
-<div class="bottomnav"><a href="index.html">Home</a><a href="venice.html">Venice</a><a href="#route">Route</a></div><footer>Version 1.0 foundation</footer><script>if('serviceWorker' in navigator){navigator.serviceWorker.register('service-worker.js')}</script></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#082d4a">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="assets/images/app-icon.png">
+<link rel="apple-touch-icon" href="assets/images/app-icon.png">
+<link rel="stylesheet" href="assets/style.css?v=2">
+<title>Northern Italy Traveler's Companion</title>
+</head>
+<body>
+<header class="topbar">
+  <div class="topbar-inner">
+    <div class="brand">THE TRAVELER'S COMPANION</div>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="venice.html">Venice</a>
+      <a href="#route">Trip route</a>
+    </nav>
+  </div>
+</header>
+
+<section class="home-hero">
+  <div class="home-hero-inner">
+    <div class="home-copy">
+      <div class="kicker">Interactive iPad Edition · 2026</div>
+      <h1>Northern<br>Italy</h1>
+      <p>A compact visual companion for Venice, the Dolomites, Cinque Terre, Lake Como and Lake Maggiore—built from the strongest parts of your original guide.</p>
+      <div class="cta-row">
+        <a class="cta" href="venice.html">Open Venice</a>
+        <a class="cta secondary" href="#route">View the route</a>
+      </div>
+    </div>
+    <div class="book-window" aria-label="Original Venice chapter opening spread">
+      <img src="assets/images/venice-cover.png" alt="Original Venice chapter opening spread">
+      <div class="book-label"><span>Original chapter design</span><span>Preserved without cropping</span></div>
+    </div>
+  </div>
+</section>
+
+<main class="wrap" id="route">
+  <section class="section-heading">
+    <div>
+      <div class="kicker" style="color:#496a55">Your journey</div>
+      <h2>Five places. One continuous trip.</h2>
+    </div>
+    <p>The web edition stays deliberately compact: each destination keeps the best photography and essential planning content, while repetitive images and duplicate material are removed.</p>
+  </section>
+
+  <div class="timeline">
+    <div class="stop"><div class="number">1</div><strong>Venice</strong><span>Aug 31–Sept 2</span></div>
+    <div class="stop"><div class="number">2</div><strong>Dolomites</strong><span>Sept 2–4</span></div>
+    <div class="stop"><div class="number">3</div><strong>Cinque Terre</strong><span>Sept 4–6</span></div>
+    <div class="stop"><div class="number">4</div><strong>Lake Como</strong><span>Sept 6–8</span></div>
+    <div class="stop"><div class="number">5</div><strong>Lake Maggiore</strong><span>Sept 8–10</span></div>
+  </div>
+
+  <section class="section-heading">
+    <div><div class="kicker" style="color:#496a55">Start here</div><h2>Venice is ready to explore.</h2></div>
+    <p>The first chapter combines a streamlined web guide with selected original spreads, so it remains attractive and familiar without turning into another oversized book.</p>
+  </section>
+
+  <div class="feature-grid">
+    <article class="feature">
+      <div class="feature-media"><img src="assets/images/venice-2.png" alt="Venice overview spread"></div>
+      <div class="feature-body">
+        <h3>Venice chapter</h3>
+        <p>Two focused days of classic sights, food, quieter neighborhoods and evening atmosphere.</p>
+        <div class="actions"><a class="action" href="venice.html">Open the chapter</a></div>
+      </div>
+    </article>
+    <article class="feature">
+      <div class="feature-media"><img src="assets/images/venice-20.png" alt="Transition from Venice to the Dolomites"></div>
+      <div class="feature-body">
+        <h3>Next: The Dolomites</h3>
+        <p>The same format will carry the journey naturally from the lagoon into the mountains.</p>
+        <div class="actions"><a class="action" href="#route">See trip sequence</a></div>
+      </div>
+    </article>
+  </div>
+</main>
+
+<div class="bottomnav"><a href="index.html">Home</a><a href="venice.html">Venice</a><a href="#route">Route</a></div>
+<footer>Version 2 · compact interactive edition</footer>
+<script>if('serviceWorker' in navigator){navigator.serviceWorker.register('service-worker.js?v=2')}</script>
+</body></html>

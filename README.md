@@ -1,3 +1,5 @@
-# Northern Italy Traveler's Companion
+# Northern Italy Traveler's Companion — Version 2
 
-Compact interactive iPad edition. Version 1.0 foundation includes the home page and Venice.
+A compact interactive travel guide for iPad and web.
+
+Version 2 changes the homepage and Venice hero into split layouts with the original spreads displayed intact rather than cropped as CSS background images.
