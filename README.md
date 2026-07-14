@@ -1,12 +1,13 @@
-# Northern Italy Traveler's Companion — Version 3
+# Northern Italy Traveler's Companion — Release 4
 
-Version 3 completes the compact Venice chapter and makes it the reusable template for the remaining destinations.
+Venice Travel Mode adds:
 
-Included:
-- two-day Venice plan
-- practical quick reference
-- Apple Maps links
-- topic-based navigation
-- selected original spreads
-- tap-to-enlarge image viewer
+- daily dashboard
+- persistent personal notes
+- persistent checklist
+- fast decision cards
+- three self-guided walks
+- quick-action navigation
 - updated offline cache
+
+Notes and checklist data remain only in the user's browser through localStorage.
