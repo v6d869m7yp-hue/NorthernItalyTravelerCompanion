@@ -7,7 +7,7 @@
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" href="assets/images/app-icon.png">
 <link rel="apple-touch-icon" href="assets/images/app-icon.png">
-<link rel="stylesheet" href="assets/style.css?v=7">
+<link rel="stylesheet" href="assets/style.css?v=8">
 <title>Dolomites · Traveler's Companion</title>
 </head>
 <body>
@@ -171,7 +171,7 @@ function closeLB(){lb.classList.remove('open');lb.setAttribute('aria-hidden','tr
 lb.querySelector('button').addEventListener('click',closeLB);
 lb.addEventListener('click',e=>{if(e.target===lb)closeLB()});
 document.addEventListener('keydown',e=>{if(e.key==='Escape')closeLB()});
-if('serviceWorker' in navigator){navigator.serviceWorker.register('service-worker.js?v=7')}
+if('serviceWorker' in navigator){navigator.serviceWorker.register('service-worker.js?v=8')}
 </script>
 </body>
 </html>

@@ -1,13 +1,9 @@
-# Northern Italy Traveler's Companion — Release 7
+# Northern Italy Traveler's Companion — Release 8
 
-Release 7 delivers the Cinque Terre chapter and converts the guide's large spread images to web-optimized JPEG files.
-
-Included:
-- two-night Cinque Terre plan
-- five-village overview
-- train, ferry and parking guidance
-- moderate hiking choices
-- departure guidance for Lake Como
-- selected original Cinque Terre spreads
-- active dashboard, itinerary and route-map links
-- smaller upload size and faster loading
+Release 8 adds Lake Como:
+- two-night Varenna plan
+- Villa Monastero and Bellagio priorities
+- ferry strategy
+- villa choices
+- departure guidance for Lake Maggiore
+- selected original Lake Como spreads
