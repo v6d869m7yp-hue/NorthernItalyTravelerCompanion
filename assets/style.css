@@ -1171,3 +1171,11 @@ footer{text-align:center;padding:30px 18px 100px;color:var(--muted)}
 /* Build 022 dashboard polish */
 .dashboard-card .today-meta{margin-top:14px}
 .dashboard-header p{font-size:1.05rem}
+
+
+/* Build 023 dashboard refinement */
+.dashboard-header h1{font-size:clamp(2.3rem,4.8vw,4.3rem)!important;}
+.build-badge{transform:scale(.8);transform-origin:top right;}
+.today-summary{display:grid;gap:10px;margin:18px 0 22px;font-size:1.08rem;}
+.today-summary div{padding:2px 0}
+.journey-subtitle{margin:.2rem 0 1rem;color:rgba(255,255,255,.8);font-size:.95rem;}
