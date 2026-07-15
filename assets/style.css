@@ -1166,3 +1166,8 @@ footer{text-align:center;padding:30px 18px 100px;color:var(--muted)}
   .today-meta{grid-template-columns:1fr}
   .trip-day{grid-template-columns:62px 16px 1fr}
 }
+
+
+/* Build 022 dashboard polish */
+.dashboard-card .today-meta{margin-top:14px}
+.dashboard-header p{font-size:1.05rem}
