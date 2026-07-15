@@ -7,7 +7,7 @@
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" href="assets/images/app-icon.png">
 <link rel="apple-touch-icon" href="assets/images/app-icon.png">
-<link rel="stylesheet" href="assets/style.css?v=13">
+<link rel="stylesheet" href="assets/style.css?v=14">
 <title>Lake Maggiore · Traveler's Companion</title>
 </head>
 <body>
@@ -128,6 +128,6 @@ function closeLB(){lb.classList.remove('open');lbImg.src=''}
 lb.querySelector('button').addEventListener('click',closeLB);
 lb.addEventListener('click',e=>{if(e.target===lb)closeLB()});
 document.addEventListener('keydown',e=>{if(e.key==='Escape')closeLB()});
-if('serviceWorker' in navigator){navigator.serviceWorker.register('service-worker.js?v=13')}
+if('serviceWorker' in navigator){navigator.serviceWorker.register('service-worker.js?v=14')}
 </script>
 </body></html>

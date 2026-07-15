@@ -718,3 +718,87 @@ footer{text-align:center;padding:30px 18px 100px;color:var(--muted)}
     font-size: clamp(2.8rem,14vw,4.7rem) !important;
   }
 }
+
+
+/* Actual-repository layout fix — v14 */
+@media (min-width: 981px) {
+  .venice-complete-hero,
+  .dolomites-complete-hero,
+  .dolomites-hero,
+  .cinque-hero,
+  .como-hero,
+  .maggiore-hero,
+  .destination-hero {
+    padding: 30px 24px 32px !important;
+  }
+
+  .venice-complete-hero .destination-inner,
+  .dolomites-complete-hero .destination-inner,
+  .dolomites-hero .destination-inner,
+  .cinque-hero .destination-inner,
+  .como-hero .destination-inner,
+  .maggiore-hero .destination-inner,
+  .destination-hero .destination-inner {
+    max-width: 1220px !important;
+    grid-template-columns: minmax(330px, 0.78fr) minmax(520px, 1.22fr) !important;
+    gap: 40px !important;
+    align-items: center !important;
+  }
+
+  .venice-complete-hero .destination-copy,
+  .dolomites-complete-hero .destination-copy,
+  .dolomites-hero .destination-copy,
+  .cinque-hero .destination-copy,
+  .como-hero .destination-copy,
+  .maggiore-hero .destination-copy,
+  .destination-hero .destination-copy {
+    min-width: 0 !important;
+  }
+
+  .venice-complete-hero .destination-copy h1,
+  .dolomites-complete-hero .destination-copy h1,
+  .dolomites-hero .destination-copy h1,
+  .cinque-hero .destination-copy h1,
+  .como-hero .destination-copy h1,
+  .maggiore-hero .destination-copy h1,
+  .destination-hero .destination-copy h1 {
+    font-size: clamp(3rem, 4.5vw, 4.8rem) !important;
+    line-height: .93 !important;
+    margin: 10px 0 20px !important;
+    max-width: 100% !important;
+    white-space: normal !important;
+    overflow-wrap: normal !important;
+  }
+
+  .dolomites-complete-hero .destination-copy h1 {
+    font-size: clamp(2.9rem, 4.2vw, 4.5rem) !important;
+  }
+
+  .book-window {
+    max-width: 670px !important;
+    width: 100% !important;
+    justify-self: end !important;
+  }
+
+  .book-window img {
+    width: 100% !important;
+    max-height: 430px !important;
+    object-fit: contain !important;
+  }
+
+  .bottomnav {
+    display: none !important;
+  }
+}
+
+@media (max-width: 980px) {
+  .venice-complete-hero .destination-inner,
+  .dolomites-complete-hero .destination-inner,
+  .dolomites-hero .destination-inner,
+  .cinque-hero .destination-inner,
+  .como-hero .destination-inner,
+  .maggiore-hero .destination-inner,
+  .destination-hero .destination-inner {
+    grid-template-columns: 1fr !important;
+  }
+}
