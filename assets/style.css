@@ -1026,3 +1026,143 @@ footer{text-align:center;padding:30px 18px 100px;color:var(--muted)}
 @media(max-width:520px){
   .maggiore-index,.maggiore-action-grid{grid-template-columns:1fr}
 }
+
+
+/* Traveler Dashboard — Build 021 */
+.traveler-dashboard{
+  background:linear-gradient(145deg,#082d4a,#174f70);
+  color:#fff;
+  padding:34px 22px 38px;
+}
+.traveler-dashboard-inner{
+  max-width:1180px;
+  margin:auto;
+}
+.dashboard-header{
+  display:flex;
+  justify-content:space-between;
+  gap:24px;
+  align-items:flex-end;
+  flex-wrap:wrap;
+}
+.dashboard-header h1{
+  font:700 clamp(2.8rem,6vw,5.5rem)/.95 Georgia,serif;
+  margin:.2rem 0 .7rem;
+}
+.dashboard-header p{
+  margin:0;
+  color:rgba(255,255,255,.82);
+  max-width:560px;
+}
+.dashboard-main{
+  display:grid;
+  grid-template-columns:1.25fr .75fr;
+  gap:18px;
+  margin-top:26px;
+}
+.dashboard-card{
+  background:rgba(255,255,255,.1);
+  border:1px solid rgba(255,255,255,.18);
+  border-radius:18px;
+  padding:22px;
+  backdrop-filter:blur(8px);
+}
+.dashboard-card h2,
+.dashboard-card h3{
+  font-family:Georgia,serif;
+  color:#f4d79b;
+  margin:0 0 10px;
+}
+.today-location{
+  font:700 2.15rem Georgia,serif;
+  display:block;
+  margin-bottom:4px;
+}
+.today-meta{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:10px;
+  margin:18px 0;
+}
+.today-meta div{
+  background:rgba(255,255,255,.08);
+  border-radius:12px;
+  padding:12px;
+}
+.today-meta strong{
+  display:block;
+  color:#f4d79b;
+  font-size:.72rem;
+  text-transform:uppercase;
+  letter-spacing:.1em;
+}
+.dashboard-actions{
+  display:flex;
+  gap:10px;
+  flex-wrap:wrap;
+}
+.dashboard-actions a{
+  text-decoration:none;
+}
+.trip-timeline{
+  display:grid;
+  gap:8px;
+  margin-top:16px;
+}
+.trip-day{
+  display:grid;
+  grid-template-columns:72px 18px 1fr;
+  gap:10px;
+  align-items:center;
+  padding:8px 0;
+}
+.trip-day .dot{
+  width:12px;
+  height:12px;
+  border-radius:50%;
+  background:#c99a43;
+  box-shadow:0 0 0 4px rgba(201,154,67,.18);
+}
+.trip-day.current{
+  background:rgba(255,255,255,.08);
+  border-radius:12px;
+  padding:10px;
+}
+.trip-day a{
+  color:#fff;
+  text-decoration:none;
+  font-weight:800;
+}
+.trip-day span{
+  color:rgba(255,255,255,.75);
+}
+.quick-dashboard-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:14px;
+  margin:26px 0 42px;
+}
+.quick-dashboard-grid a{
+  text-decoration:none;
+  background:#fff;
+  border:1px solid var(--line);
+  border-radius:16px;
+  padding:18px;
+  color:var(--navy);
+  font-weight:850;
+  box-shadow:0 10px 26px rgba(8,45,74,.08);
+}
+.quick-dashboard-grid span{
+  display:block;
+  font-size:1.45rem;
+  margin-bottom:7px;
+}
+@media(max-width:900px){
+  .dashboard-main{grid-template-columns:1fr}
+  .quick-dashboard-grid{grid-template-columns:repeat(2,1fr)}
+}
+@media(max-width:560px){
+  .quick-dashboard-grid{grid-template-columns:1fr}
+  .today-meta{grid-template-columns:1fr}
+  .trip-day{grid-template-columns:62px 16px 1fr}
+}
