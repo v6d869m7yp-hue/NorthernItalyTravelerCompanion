@@ -555,3 +555,35 @@ footer{text-align:center;padding:30px 18px 100px;color:var(--muted)}
 @media(max-width:480px){
   .chapter-index,.venice-action-grid{grid-template-columns:1fr}
 }
+
+/* Milestone 2 - complete Dolomites chapter */
+.dolomites-complete-hero{
+  background:linear-gradient(145deg,#1f4d3a,#0b3027);
+  color:#fff;padding:44px 22px 48px
+}
+.dolomites-complete-hero .destination-copy h1{font-size:clamp(3.6rem,8vw,7.4rem)}
+.alpine-index{
+  display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:22px 0 48px
+}
+.alpine-index a{
+  text-decoration:none;background:#fff;border:1px solid var(--line);
+  border-radius:15px;padding:16px;color:#214c39;font-weight:850;
+  box-shadow:0 9px 22px rgba(8,45,74,.08)
+}
+.alpine-index small{display:block;color:var(--muted);font-weight:600;margin-top:4px}
+.alpine-action-grid{
+  display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin:20px 0 42px
+}
+.alpine-action{
+  display:block;text-decoration:none;text-align:center;background:#f7fbf8;
+  border:1px solid #cddfd4;border-radius:14px;padding:15px 10px;
+  color:#214c39;font-weight:850
+}
+.alpine-action span{display:block;font-size:1.35rem;margin-bottom:6px}
+@media(max-width:1000px){
+  .alpine-index{grid-template-columns:repeat(2,1fr)}
+  .alpine-action-grid{grid-template-columns:repeat(3,1fr)}
+}
+@media(max-width:520px){
+  .alpine-index,.alpine-action-grid{grid-template-columns:1fr}
+}
