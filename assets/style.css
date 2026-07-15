@@ -876,3 +876,78 @@ footer{text-align:center;padding:30px 18px 100px;color:var(--muted)}
   .coastal-index,.coastal-action-grid{grid-template-columns:1fr}
   .build-badge{top:auto;bottom:72px;right:10px}
 }
+
+
+/* Lake Como chapter and editorial cleanup — Build 019 */
+.como-complete-hero{
+  background:linear-gradient(145deg,#31576a,#132f3c);
+  color:#fff;
+  padding:28px 24px 30px;
+}
+.como-complete-hero .destination-inner{
+  max-width:1220px;
+  grid-template-columns:minmax(330px,.78fr) minmax(540px,1.22fr);
+  gap:42px;
+  align-items:center;
+}
+.como-complete-hero .destination-copy h1{
+  font-size:clamp(3.2rem,4.4vw,4.8rem);
+  line-height:.94;
+  margin:8px 0 12px;
+  white-space:nowrap;
+}
+.lake-index{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:12px;
+  margin:22px 0 48px;
+}
+.lake-index a{
+  text-decoration:none;
+  background:#fff;
+  border:1px solid var(--line);
+  border-radius:15px;
+  padding:16px;
+  color:#31576a;
+  font-weight:850;
+  box-shadow:0 9px 22px rgba(8,45,74,.08);
+}
+.lake-index small{
+  display:block;
+  color:var(--muted);
+  font-weight:600;
+  margin-top:4px;
+}
+.lake-action-grid{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:12px;
+  margin:20px 0 42px;
+}
+.lake-action{
+  display:block;
+  text-decoration:none;
+  text-align:center;
+  background:#f5f9fa;
+  border:1px solid #cadbe3;
+  border-radius:14px;
+  padding:15px 10px;
+  color:#31576a;
+  font-weight:850;
+}
+.lake-action span{
+  display:block;
+  font-size:1.35rem;
+  margin-bottom:6px;
+}
+@media(max-width:1000px){
+  .lake-index{grid-template-columns:repeat(2,1fr)}
+  .lake-action-grid{grid-template-columns:repeat(2,1fr)}
+}
+@media(max-width:980px){
+  .como-complete-hero .destination-inner{grid-template-columns:1fr}
+  .como-complete-hero .destination-copy h1{white-space:normal}
+}
+@media(max-width:520px){
+  .lake-index,.lake-action-grid{grid-template-columns:1fr}
+}
