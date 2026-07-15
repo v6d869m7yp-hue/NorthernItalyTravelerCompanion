@@ -491,3 +491,23 @@ footer{text-align:center;padding:30px 18px 100px;color:var(--muted)}
 .villa-card h3{font:700 1.55rem Georgia,serif;color:#31576a;margin:0 0 8px}
 .villa-card p{color:#53606a;line-height:1.5;margin:0}
 @media(max-width:900px){.ferry-grid,.villa-grid{grid-template-columns:1fr}}
+
+/* Release 9: Lake Maggiore */
+.maggiore-hero{
+  background:linear-gradient(145deg,#436b63,#183b40);
+  color:#fff;padding:44px 22px 48px
+}
+.maggiore-pill{
+  display:inline-flex;align-items:center;gap:8px;background:#edf4ef;color:#3b6158;
+  border:1px solid #d4e3da;border-radius:999px;padding:8px 12px;font-weight:850;font-size:.84rem
+}
+.island-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin:22px 0 50px}
+.island-card{
+  background:#fff;border:1px solid var(--line);border-radius:18px;overflow:hidden;
+  box-shadow:0 12px 30px rgba(8,45,74,.09)
+}
+.island-card img{display:block;width:100%}
+.island-card div{padding:20px}
+.island-card h3{font:700 1.55rem Georgia,serif;color:#436b63;margin:0 0 8px}
+.island-card p{color:#53606a;line-height:1.5;margin:0}
+@media(max-width:900px){.island-grid{grid-template-columns:1fr}}

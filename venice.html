@@ -7,7 +7,7 @@
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" href="assets/images/app-icon.png">
 <link rel="apple-touch-icon" href="assets/images/app-icon.png">
-<link rel="stylesheet" href="assets/style.css?v=8">
+<link rel="stylesheet" href="assets/style.css?v=9">
 <title>Venice · Traveler's Companion</title>
 </head>
 <body>
@@ -361,7 +361,7 @@ document.getElementById('clearChecklist').addEventListener('click',()=>{
   boxes.forEach(b=>b.checked=false);
   localStorage.removeItem(checklistKey);
 });
-if('serviceWorker' in navigator){navigator.serviceWorker.register('service-worker.js?v=8')}
+if('serviceWorker' in navigator){navigator.serviceWorker.register('service-worker.js?v=9')}
 
 </script>
 </body>
