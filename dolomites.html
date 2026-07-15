@@ -7,13 +7,13 @@
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" href="assets/images/app-icon.png">
 <link rel="apple-touch-icon" href="assets/images/app-icon.png">
-<link rel="stylesheet" href="assets/style.css?v=12">
+<link rel="stylesheet" href="assets/style.css?v=13">
 <title>Dolomites · Northern Italy Traveler's Companion</title>
 </head>
 <body>
 <header class="topbar"><div class="topbar-inner">
 <div class="brand">DOLOMITES · COMPLETE CHAPTER</div>
-<nav class="nav"><a href="index.html">Home</a><a href="#briefing">Briefing</a><a href="#hotels">Hotels</a><a href="#day-one">Day 1</a><a href="#day-two">Day 2</a><a href="#cuisine">Cuisine</a><a href="#dont-miss">Don’t Miss</a><a href="#departure">Departure</a><a href="cinque-terre.html">Next: Cinque Terre</a></nav>
+<nav class="nav"><a href="index.html">Home</a><a href="#briefing">Overview</a><a href="#day-one">Plan</a><a href="#dont-miss">Highlights</a><a href="#cuisine">Food</a><a href="#photography">Photos</a><a href="cinque-terre.html">Next →</a></nav>
 </div></header>
 
 <section class="dolomites-complete-hero">
@@ -206,7 +206,7 @@ function closeLB(){lb.classList.remove('open');lbImg.src=''}
 lb.querySelector('button').addEventListener('click',closeLB);
 lb.addEventListener('click',event=>{if(event.target===lb)closeLB()});
 document.addEventListener('keydown',event=>{if(event.key==='Escape')closeLB()});
-if('serviceWorker' in navigator){navigator.serviceWorker.register('service-worker.js?v=12')}
+if('serviceWorker' in navigator){navigator.serviceWorker.register('service-worker.js?v=13')}
 </script>
 </body>
 </html>
