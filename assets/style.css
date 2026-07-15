@@ -779,3 +779,100 @@ footer{text-align:center;padding:30px 18px 100px;color:var(--muted)}
     white-space:normal !important;
   }
 }
+
+
+/* Build verification badge + Cinque Terre complete chapter — Build 018 */
+.build-badge{
+  position:fixed;
+  top:74px;
+  right:14px;
+  z-index:90;
+  padding:8px 11px;
+  border-radius:999px;
+  background:#fff7df;
+  color:#5b4516;
+  border:1px solid #d9bd71;
+  box-shadow:0 8px 22px rgba(8,45,74,.16);
+  font-size:.76rem;
+  font-weight:850;
+  letter-spacing:.02em;
+}
+.build-footer{
+  text-align:center;
+  font-size:.78rem;
+  color:#68757d;
+  padding:10px 16px 88px;
+}
+.cinque-complete-hero{
+  background:linear-gradient(145deg,#075b78,#0d3855);
+  color:#fff;
+  padding:28px 24px 30px;
+}
+.cinque-complete-hero .destination-inner{
+  max-width:1220px;
+  grid-template-columns:minmax(330px,.78fr) minmax(540px,1.22fr);
+  gap:42px;
+  align-items:center;
+}
+.cinque-complete-hero .destination-copy h1{
+  font-size:clamp(3.2rem,4.4vw,4.8rem);
+  line-height:.94;
+  margin:8px 0 12px;
+  white-space:nowrap;
+}
+.coastal-index{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:12px;
+  margin:22px 0 48px;
+}
+.coastal-index a{
+  text-decoration:none;
+  background:#fff;
+  border:1px solid var(--line);
+  border-radius:15px;
+  padding:16px;
+  color:#075b78;
+  font-weight:850;
+  box-shadow:0 9px 22px rgba(8,45,74,.08);
+}
+.coastal-index small{
+  display:block;
+  color:var(--muted);
+  font-weight:600;
+  margin-top:4px;
+}
+.coastal-action-grid{
+  display:grid;
+  grid-template-columns:repeat(5,1fr);
+  gap:12px;
+  margin:20px 0 42px;
+}
+.coastal-action{
+  display:block;
+  text-decoration:none;
+  text-align:center;
+  background:#f4fbfc;
+  border:1px solid #c9e2e8;
+  border-radius:14px;
+  padding:15px 10px;
+  color:#075b78;
+  font-weight:850;
+}
+.coastal-action span{
+  display:block;
+  font-size:1.35rem;
+  margin-bottom:6px;
+}
+@media(max-width:1000px){
+  .coastal-index{grid-template-columns:repeat(2,1fr)}
+  .coastal-action-grid{grid-template-columns:repeat(3,1fr)}
+}
+@media(max-width:980px){
+  .cinque-complete-hero .destination-inner{grid-template-columns:1fr}
+  .cinque-complete-hero .destination-copy h1{white-space:normal}
+}
+@media(max-width:520px){
+  .coastal-index,.coastal-action-grid{grid-template-columns:1fr}
+  .build-badge{top:auto;bottom:72px;right:10px}
+}
