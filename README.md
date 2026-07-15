@@ -1,11 +1,7 @@
-# Northern Italy Traveler's Companion — Release 9
+# Northern Italy Traveler's Companion — Version 1.0
 
-Release 9 completes all destination chapters by adding Lake Maggiore:
+Finished interactive guide for August 31–September 10, 2026.
 
-- two-night Stresa plan
-- Borromean Islands sequence
-- Isola Bella, Isola dei Pescatori and Isola Madre
-- Malpensa departure guidance
-- selected original Lake Maggiore spreads
-- updated dashboard, itinerary and route map
-- all five destinations active
+Includes the dashboard, itinerary, route map, hotel workspace, all five destination chapters, offline support, iPad Home Screen support, print-friendly CSS and installation instructions.
+
+Upload the contents of this folder to the root of the GitHub Pages repository.

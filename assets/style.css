@@ -511,3 +511,19 @@ footer{text-align:center;padding:30px 18px 100px;color:var(--muted)}
 .island-card h3{font:700 1.55rem Georgia,serif;color:#436b63;margin:0 0 8px}
 .island-card p{color:#53606a;line-height:1.5;margin:0}
 @media(max-width:900px){.island-grid{grid-template-columns:1fr}}
+
+/* Version 1.0 final polish */
+:focus-visible{outline:3px solid #c99a43;outline-offset:3px}
+.skip-link{position:absolute;left:-9999px;top:auto}
+.skip-link:focus{left:14px;top:14px;z-index:999;background:#fff;color:#082d4a;padding:10px 14px;border-radius:10px}
+.version-badge{display:inline-flex;align-items:center;background:#edf4ef;color:#315d40;border:1px solid #d3e2d7;border-radius:999px;padding:7px 11px;font-weight:800;font-size:.8rem}
+.final-banner{background:linear-gradient(135deg,#082d4a,#31576a);color:white;border-radius:22px;padding:28px 30px;margin:38px 0;box-shadow:var(--shadow)}
+.final-banner h2{font:700 2.25rem Georgia,serif;margin:0 0 10px;color:#f0cf8d}
+.final-banner p{margin:0;line-height:1.6}
+.page-actions{display:flex;gap:10px;flex-wrap:wrap;margin:22px 0 0}
+@media print{
+  .topbar,.bottomnav,.quick-actions,.page-actions,.lightbox{display:none!important}
+  body{background:#fff}.wrap{max-width:none;padding:20px}
+  .feature,.guide-card,.day-card,.hotel-card,.spread{box-shadow:none;break-inside:avoid}
+  a{text-decoration:none}
+}
