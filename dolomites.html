@@ -7,7 +7,8 @@
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" href="assets/images/app-icon.png">
 <link rel="apple-touch-icon" href="assets/images/app-icon.png">
-<link rel="stylesheet" href="assets/style.css?v=14">
+<link rel="stylesheet" href="assets/style.css?v=15">
+<link rel="stylesheet" href="assets/dolomites-title-fix.css?v=15">
 <title>Dolomites · Northern Italy Traveler's Companion</title>
 </head>
 <body>
@@ -20,7 +21,8 @@
 <div class="destination-inner">
 <div class="destination-copy">
 <div class="kicker">Milestone 2 complete edition</div>
-<h1>The<br>Dolomites</h1>
+<h1>The Dolomites</h1>
+<p class="hero-subtitle">Ortisei • Val Gardena</p>
 <p>The full illustrated Dolomites guide restored from the finished chapter: hotels, two-day plan, Seceda, Alpe di Siusi, scenic drives, hikes, cuisine, photography and departure planning.</p>
 <div class="mini-facts">
 <div class="mini-fact"><strong>Base</strong><span>Ortisei</span></div>
@@ -206,7 +208,7 @@ function closeLB(){lb.classList.remove('open');lbImg.src=''}
 lb.querySelector('button').addEventListener('click',closeLB);
 lb.addEventListener('click',event=>{if(event.target===lb)closeLB()});
 document.addEventListener('keydown',event=>{if(event.key==='Escape')closeLB()});
-if('serviceWorker' in navigator){navigator.serviceWorker.register('service-worker.js?v=14')}
+if('serviceWorker' in navigator){navigator.serviceWorker.register('service-worker.js?v=15')}
 </script>
 </body>
 </html>
