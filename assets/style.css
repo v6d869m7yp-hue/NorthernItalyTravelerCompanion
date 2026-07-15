@@ -951,3 +951,78 @@ footer{text-align:center;padding:30px 18px 100px;color:var(--muted)}
 @media(max-width:520px){
   .lake-index,.lake-action-grid{grid-template-columns:1fr}
 }
+
+
+/* Lake Maggiore chapter — Build 020 */
+.maggiore-complete-hero{
+  background:linear-gradient(145deg,#436b63,#183b40);
+  color:#fff;
+  padding:28px 24px 30px;
+}
+.maggiore-complete-hero .destination-inner{
+  max-width:1220px;
+  grid-template-columns:minmax(330px,.78fr) minmax(540px,1.22fr);
+  gap:42px;
+  align-items:center;
+}
+.maggiore-complete-hero .destination-copy h1{
+  font-size:clamp(3.2rem,4.4vw,4.8rem);
+  line-height:.94;
+  margin:8px 0 12px;
+  white-space:nowrap;
+}
+.maggiore-index{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:12px;
+  margin:22px 0 48px;
+}
+.maggiore-index a{
+  text-decoration:none;
+  background:#fff;
+  border:1px solid var(--line);
+  border-radius:15px;
+  padding:16px;
+  color:#436b63;
+  font-weight:850;
+  box-shadow:0 9px 22px rgba(8,45,74,.08);
+}
+.maggiore-index small{
+  display:block;
+  color:var(--muted);
+  font-weight:600;
+  margin-top:4px;
+}
+.maggiore-action-grid{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:12px;
+  margin:20px 0 42px;
+}
+.maggiore-action{
+  display:block;
+  text-decoration:none;
+  text-align:center;
+  background:#f5faf7;
+  border:1px solid #d1e0d8;
+  border-radius:14px;
+  padding:15px 10px;
+  color:#436b63;
+  font-weight:850;
+}
+.maggiore-action span{
+  display:block;
+  font-size:1.35rem;
+  margin-bottom:6px;
+}
+@media(max-width:1000px){
+  .maggiore-index{grid-template-columns:repeat(2,1fr)}
+  .maggiore-action-grid{grid-template-columns:repeat(2,1fr)}
+}
+@media(max-width:980px){
+  .maggiore-complete-hero .destination-inner{grid-template-columns:1fr}
+  .maggiore-complete-hero .destination-copy h1{white-space:normal}
+}
+@media(max-width:520px){
+  .maggiore-index,.maggiore-action-grid{grid-template-columns:1fr}
+}
