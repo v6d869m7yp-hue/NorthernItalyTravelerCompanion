@@ -1,0 +1,59 @@
+## v4.0 Beta 1
+- Established feature-complete beta baseline.
+- Verified and completed Hotel Berna reservation essentials.
+- Updated versioning and offline cache.
+- No new features, pages, or itinerary changes.
+
+# Changelog
+
+## v3.7.0
+- Visual-refinement-only release.
+- Brightened hero and editorial imagery for outdoor viewing.
+- Reduced overly dark overlays while retaining readable text.
+- Standardized image cropping across desktop, tablet and phone.
+- Unified typography, spacing, card radii and shadows.
+- Refined transitions and responsive page rhythm.
+- No functionality, page or itinerary changes.
+
+## 3.6.0 — Departure correction
+- Confirmed September 10 departure from Milan Linate (LIN) on KLM.
+- Replaced obsolete Malpensa directions and rail guidance with Linate transfer guidance.
+- Updated route map, departure checklist, visible version labels and offline cache.
+
+## 3.6.0 — Polish release
+- Visual consistency and responsive refinement only; no new features.
+- Normalized hero brightness, overlays, cards, buttons, typography spacing and mobile navigation.
+- Added accessibility focus and reduced-motion refinements.
+- Corrected stale Varenna wording to Lenno.
+
+# Northern Italy Traveler’s Companion
+
+## Version 3.0.0
+
+### Added
+- New trip-command home dashboard focused on immediate traveler needs.
+- Accommodation hubs for Venice, Varenna/Lake Como, Stresa and Milan.
+- New four-base route navigation and destination showcase.
+- Direct links from each stay hub to bookings, maps and daily plans.
+
+### Changed
+- Rebuilt home hero with brighter photography and a substantially lighter overlay.
+- Improved responsive behavior for narrow desktop windows, tablets and phones.
+- Updated all visible version labels and asset cache-busting strings.
+- Corrected Venice’s final transition and button to point to Lake Como.
+- Updated the offline service-worker cache to v3.0.0 and added omitted primary pages.
+
+### Preserved
+- Existing illustrated destination chapters, saved booking workspace, maps and daily guide.
+
+
+## 3.1.0 — Venice Accommodation Concierge
+- Rebuilt the Venice stay section around the confirmed Hotel Al Sotoportego reservation.
+- Added hotel photography, stay facts, quick actions, arrival concierge, neighborhood shortcuts and a first-evening route.
+- Added resilient image fallbacks for offline or blocked third-party photography.
+- Updated responsive styling, version labels and service-worker cache.
+
+
+## v3.6.0
+- Personalized Lake Maggiore and Milan concierge pages.
+- Corrected lodging links and Malpensa departure details.
